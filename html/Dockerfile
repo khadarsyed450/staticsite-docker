@@ -1,2 +1,2 @@
 FROM httpd
-COPY . /usr/local/apache2/htdocs/
+COPY /var/lib/jenkins/workspace/job1/html/. /usr/local/apache2/htdocs/
